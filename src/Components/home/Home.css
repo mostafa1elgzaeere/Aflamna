@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+body{
+    overflow-x: hidden;
+    background: #000000;
+    font-family: 'Merriweather', serif;
+}
+.container{
+    height: auto;
+    position: relative;
+}
+.watch-home{
+    position: absolute;
+    bottom:5%;
+    right: 10%;
+    height: 15%;
+    font-size: 30px;
+    min-width: 100px;
+    cursor: pointer;
+    color: white;
+}
+.watch-home:hover{
+    color:#5b5858;
+    transition: .5s all ease-in-out;
+
+}
+.immg:hover{
+    transition: .5s all ease-in-out;
+    opacity: .6;
+}
+
+.x{
+color: rgb(170, 170, 170);
+font-size: 18px;
+position: absolute;
+left: 5%;
+bottom:5%;
+word-wrap: break-word;
+width: 50%;
+}
+@media screen and (max-width:580px) {
+    .x{
+        display: none;
+    }
+    .splash_parent{
+        height: 200px !important;
+    }
+}
+
+.overlay-home{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 4px;
+    z-index: 999;
+}
+.exit-overlay-home{
+    position: absolute;
+    right: 1%;
+    font-size: 45px;
+    cursor:pointer;
+    font-size: larger;
+    font-weight: bolder;
+    color: rgb(209, 209, 209);
+    top: 2%;
+}
+
+
+.card-img-top {
+    object-fit: cover;
+}

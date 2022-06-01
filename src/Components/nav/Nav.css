@@ -1,0 +1,12 @@
+#basic-nav-dropdown{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(179, 179, 179);
+}
+.basic-nav-dropdown{
+    background: unset !important;
+}
+a{
+    cursor: pointer;
+}

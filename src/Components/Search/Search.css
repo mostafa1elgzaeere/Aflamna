@@ -1,0 +1,10 @@
+.card{
+    border: none;
+    cursor: pointer;
+}
+.card_image:hover{
+    
+    opacity: .6;
+    transition: .5s all ease-in-out;
+}
+

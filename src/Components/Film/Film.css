@@ -1,0 +1,221 @@
+.discription-video{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 10%;
+    height: 100%;
+    text-align: center;
+    justify-items: center;
+    min-height: 400px;
+
+}
+.filmm{
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+}
+.discrption{
+    max-height: 250px;
+    height:230px;
+
+}
+.card:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.live-chat:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+.comment:hover{
+    transform: scale(1);
+    opacity: 1;
+}
+
+/* .comment-list{
+    max-height:200px;   
+    overflow-y: scroll;
+} */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #8E2B35;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+.live-chat{
+    background-color: #bbbaba;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.live-chat::-webkit-scrollbar-thumb{
+    background: green;
+
+}
+
+@media screen and (max-width:1000px) {
+
+    .disc{
+        font-size: 18px;
+     }
+     .discrption{
+         width: 200px;
+     }
+}
+@media screen and (max-width:789px) {
+    .arrow-left{
+        display: none;
+    }   
+    .fake_card{
+        display: none !important;
+    }
+}
+textarea{
+    resize: none;
+}
+.arrow-bottom{
+    display: block;
+    position: relative;
+    animation-name: move;
+    animation-duration: .8s;
+    animation-fill-mode: forwards; 
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    margin-bottom: 5%;
+    padding-bottom: 5%;
+    animation-direction: alternate; 
+
+}
+@keyframes move{
+    from{
+        top: 1px;
+    }
+    to{
+        top:40px
+
+    }
+}
+
+
+
+
+
+
+.Poster_desc{
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+.Poster_desc div:first-child{
+    height: 100% !important;
+    
+}
+.Poster_desc img{
+    height: 100%; 
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+}
+.description_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.video_parent{
+    width: 100%;
+}
+.comments{
+    width: 100%;
+    max-height:300px ;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 14px 4px 47px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+        margin-bottom: 5%;
+}
+.real_card{
+    box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 14px 4px 37px -1px rgba(0,0,0,0.46);
+}
+
+.thumbnail img{
+    min-width: 33%;
+    max-width: 50%;
+}
+
+@media screen and (max-width:1000px) {
+    .thumbnail{display: block;
+        flex: 1;
+        width: 70px;
+    }
+
+    
+}
+
+
+
+/*font Awesome http://fontawesome.io*/
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css);
+/*Comment List styles*/
+.comment-list .row {
+  margin-bottom: 0px;
+}
+.comment-list .panel .panel-heading {
+  padding: 4px 15px;
+  position: absolute;
+  border:none;
+  /*Panel-heading border radius*/
+  border-top-right-radius:0px;
+  top: 1px;
+}
+.comment-list .panel .panel-heading.right {
+  border-right-width: 0px;
+  /*Panel-heading border radius*/
+  border-top-left-radius:0px;
+  right: 16px;
+}
+.comment-list .panel .panel-heading .panel-body {
+  padding-top: 6px;
+}
+.comment-list figcaption {
+  /*For wrapping text in thumbnail*/
+  word-wrap: break-word;
+}
+/* Portrait tablets and medium desktops */
+
+  .comment-list .panel.arrow.left:after, .comment-list .panel.arrow.left:before {
+    border-left: 0;
+  }
+  /*****Left Arrow*****/
+  /*Outline effect style*/
+
+  /*Background color effect*/
+  .comment-list .panel.arrow.left:after {
+    left: 1px;
+    top: 31px;
+    /*Change for different outline color*/
+    border-right-color: #FFFFFF;
+    border-width: 15px;
+  }
+  /*****Right Arrow*****/
+  /*Outline effect style*/
+
+
+.comment-list .comment-post {
+  margin-top: 6px;
+}

@@ -1,0 +1,44 @@
+.card{
+    border: none;
+    cursor: pointer;
+}
+.card_image:hover{
+    
+    opacity: .6;
+    transition: .5s all ease-in-out;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+  }
+
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: darkred !important;
+  }
+  .swiper-pagination-bullet{
+    background-color: darkred !important;
+  }
+
+
+
+
+  .mySwiper{
+    height: 500px;
+  }
